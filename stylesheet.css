@@ -1,0 +1,179 @@
+body {
+    font-family: "Times";    
+}
+.header li,.education-details li {
+    list-style: none;
+}
+.header {
+    background-color: rgb(74, 74, 197);
+    color: white;
+    height: 90px;
+    margin: -20px; 
+    z-index: 0;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 105%;            
+}
+.top-logo {
+    float: left;
+    font-size: xx-large;
+    padding: 20px;
+    margin-right: 450px;
+    margin-left: 50px;
+    margin-top: 16px;
+    color: white;
+}
+.top-list li{
+    float: left;
+    padding: 30px 40px;
+}
+.top-list a {
+    color: white;
+}
+.skill-list {
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    background-color: rgba(209, 201, 92, 0.7);
+}
+.main {
+    margin: 60px -20px;    
+}
+.details {
+    background-color: blueviolet;
+    padding-bottom: 40px;
+    margin-top: -40px;
+}
+.about {
+    color: rgb(224, 121, 72);   
+    height: 460px; 
+    border-bottom: 3px solid blueviolet;  
+    padding-bottom: 30px;  
+    background-color: rgba(226, 211, 145, 0.4);
+}
+.about-details {
+    float: right;
+    text-align: center;
+    margin-right: 180px;
+    margin-top: 10px;
+    height: 380px;
+}    
+.about-details h2 {
+    font-size: 40px;
+    padding-top: -30px;
+    color: rgb(43, 226, 165);
+}
+.about-details p {    
+    text-align: center;    
+    width: 300px;
+    font-size: 20px;
+}
+.project-heading h2{
+    text-align: center;    
+    padding-top: 20px;      
+}
+.profile-image {
+    height: 80%;
+    width: 30%;    
+    margin-top: 40px;
+    margin-left: 190px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}    
+.skills {
+    float: left;
+    padding-left: 160px;
+    color: beige;    
+}
+.skill-top {
+    font-size: 30px;
+    text-align: center;
+}
+.skills li {
+    padding: 20px 0px;
+    padding-right: 20px;
+}
+.education-details {
+    text-align: center;
+    padding-left: 630px;
+    padding-right: 100px;
+    color: cornsilk;
+    margin-bottom: 10px; 
+    padding-top: 10px;       
+}
+.education-details h2 {
+    font-size: 30px;
+}
+.edu {
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    background-color: rgba(6, 146, 146, 0.6);
+}
+.projects {
+    background-color: rgba(240, 255, 255, 0.4);
+    margin-bottom: -60px;
+}
+.project-details {
+    padding-left: 100px;      
+    width: 280px;    
+}
+.project-details img {
+    width: 280px;
+    margin-top: 40px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 159px;
+}
+.project-details p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.social-link {
+    float: right;
+    padding-top: 120px;
+    padding-right: 200px;
+}
+.social-link h3 {
+    padding-left: 10px;
+    text-align: center;
+}
+.social-link i{
+    color: rgb(252, 252, 252);
+    margin: 20px 10px; 
+    font-size: 28px; 
+    text-align: center;  
+}
+input,textarea,button {
+    width: 320px;    
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:18px;
+    border:1px solid #bccad1;
+    border-radius: 8px;    
+}
+.contact-form h2 {
+    padding-left: 120px; 
+    color: antiquewhite;  
+}
+.contact-form p {
+    color: wheat;
+}
+.contact-form {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 420px;         
+}
+.contact-submit {
+    background-color: rgb(165, 163, 163);    
+}
+.contact-submit:hover {
+    background-color: darkgray;
+}
+.footer {
+    background-color: rgba(80, 80, 150, 0.5);
+    margin-left: -20px;
+    margin-right: -20px;
+    
+    margin-bottom: -20px;
+}
