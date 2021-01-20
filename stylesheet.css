@@ -45,11 +45,12 @@ body {
     margin-top: -40px;
 }
 .about {
-    color: rgb(224, 121, 72);   
+    color: rgb(0, 68, 255);   
     height: 460px; 
     border-bottom: 3px solid blueviolet;  
     padding-bottom: 30px;  
-    background-color: rgba(226, 211, 145, 0.4);
+    background: url("https://i.ibb.co/swZ5YgF/Rocky-Mountains-High-Definition-Wallpapers.jpg");
+    background-size: cover;
 }
 .about-details {
     float: right;
@@ -62,6 +63,11 @@ body {
     font-size: 40px;
     padding-top: -30px;
     color: rgb(43, 226, 165);
+}
+.intro {
+    background-color: rgba(240, 248, 255, 0.664);
+    border: 0px solid;
+    border-radius: 15px;
 }
 .about-details p {    
     text-align: center;    
@@ -77,7 +83,7 @@ body {
     width: 30%;    
     margin-top: 40px;
     margin-left: 190px;
-    border: 2px solid blueviolet;
+    border: 0px solid;
     border-radius: 10px;
 }    
 .skills {
