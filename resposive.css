@@ -1,0 +1,89 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+    .top-logo {
+        margin-right: 260px;
+    }
+    
+    .about-details {
+        margin-right:100px;
+    }
+    
+    .profile-image {
+        margin-left: 110px;
+    }
+    .education-details {
+        padding-left: 430px;
+        padding-right: 80px;
+    }
+    .skills {
+        padding-left: 110px;
+        margin-top: 10px;
+    }
+    .contact-form {
+        padding-left: 180px;
+    }
+    .social-link {
+        padding-right: 120px;
+    }
+    .contact-form p {
+        font-size: 10px;
+    }
+    .contact-form h3 {
+        padding-left: 60px;
+    }
+  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .top-logo {
+        margin-right: 260px;
+    }
+    .about-details {
+        margin-right:100px;
+    }
+    .profile-image {
+        margin-left: 110px;
+    }
+    .contact-form h3 {
+        padding-left: 110px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .top-logo {
+        margin-right: 450px;
+    }
+    .about-details {
+        margin-right:180px;
+    }
+    .profile-image {
+        margin-left: 190px;
+    }
+    .education-details {
+        padding-left: 630px;
+        padding-right: 100px;
+    }
+    .skills {
+        padding-left: 160px;
+    }
+    .contact-form {
+        padding-left: 200px;
+    }
+    .social-link {
+        padding-right: 200px;
+    }
+    .contact-form h3 {
+        padding-left: 120px;
+        font-size: 30px;
+    }
+    .contact-form p {
+        font-size: 20px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { 
+
+ }*/
