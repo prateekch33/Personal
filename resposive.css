@@ -32,6 +32,11 @@
     .contact-form h3 {
         padding-left: 60px;
     }
+    .main {
+        margin: 0px -20px;
+        margin-top: 60px;
+        margin-bottom: 80px;    
+    }
   }
 
 /* Medium devices (tablets, 768px and up) */
@@ -80,6 +85,9 @@
     }
     .contact-form p {
         font-size: 20px;
+    }
+    .main {
+        margin: 60px -20px;    
     }
  }
 

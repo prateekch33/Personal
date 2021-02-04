@@ -36,9 +36,7 @@ body {
     border-radius: 20px;
     background-color: rgba(209, 201, 92, 0.7);
 }
-.main {
-    margin: 60px -20px;    
-}
+
 .details {
     background-color: blueviolet;
     padding-bottom: 40px;
