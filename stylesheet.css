@@ -18,8 +18,7 @@ body {
 .top-logo {
     float: left;
     font-size: xx-large;
-    padding: 20px;
-    /*margin-right: 450px;*/
+    padding: 20px;    
     margin-left: 50px;
     margin-top: 16px;
     color: white;
@@ -52,10 +51,9 @@ body {
 }
 .about-details {
     float: right;
-    text-align: center;
-    /*margin-right: 180px;*/
-    margin-top: 10px;
-    height: 380px;
+    text-align: center;    
+    margin-top: 10px;    
+    height: 390px;
 }    
 .about-details h2 {
     font-size: 40px;
@@ -66,6 +64,7 @@ body {
     background-color: rgba(240, 248, 255, 0.664);
     border: 0px solid;
     border-radius: 15px;
+    padding: 5px 10px;
 }
 .about-details p {    
     text-align: center;    
@@ -79,14 +78,12 @@ body {
 .profile-image {
     height: 80%;
     width: 30%;    
-    margin-top: 40px;
-    /*margin-left: 190px;*/
+    margin-top: 70px;    
     border: 0px solid;
     border-radius: 10px;
 }    
 .skills {
-    float: left;
-    /* padding-left: 160px; */
+    float: left;    
     color: beige;    
 }
 .skill-top {
@@ -99,9 +96,7 @@ body {
     font-size: 15px;
 }
 .education-details {
-    text-align: center;
-    /* padding-left: 630px;
-    padding-right: 100px; */
+    text-align: center;    
     color: cornsilk;
     margin-bottom: 10px; 
     padding-top: 10px;       
@@ -136,8 +131,7 @@ body {
 .social-link {
     float: right;
     padding-top: 120px;
-    /* padding-right: 200px; */
-}
+}    
 .social-link h3 {
     padding-left: 10px;
     text-align: center;
@@ -157,8 +151,7 @@ input,textarea,button {
     border:1px solid #bccad1;
     border-radius: 8px;    
 }
-.contact-form h3 {
-    /* padding-left: 120px;  */
+.contact-form h3 {    
     color: antiquewhite;  
 }
 .contact-form p {
@@ -166,8 +159,7 @@ input,textarea,button {
 }
 .contact-form {
     padding-top: 30px;
-    padding-bottom: 20px;
-    /* padding-left: 420px;          */
+    padding-bottom: 20px;    
 }
 .contact-submit {
     background-color: rgb(165, 163, 163);    
@@ -178,7 +170,6 @@ input,textarea,button {
 .footer {
     background-color: rgba(80, 80, 150, 0.5);
     margin-left: -20px;
-    margin-right: -20px;
-    
+    margin-right: -20px;    
     margin-bottom: -20px;
 }
