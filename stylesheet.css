@@ -37,14 +37,13 @@ body {
 }
 
 .details {
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.692);
     padding-bottom: 40px;
-    margin-top: -40px;
+    margin-top: 0px;
 }
 .about {
     color: rgb(0, 68, 255);   
-    height: 490px; 
-    border-bottom: 3px solid blueviolet;  
+    height: 490px;    
     padding-bottom: 60px;  
     background: url("https://i.ibb.co/swZ5YgF/Rocky-Mountains-High-Definition-Wallpapers.jpg");
     background-size: cover;
@@ -93,7 +92,7 @@ body {
 }
 .skills li {
     padding: 20px 0px;
-    padding-right: 20px;
+    padding-right: 40px;
     font-size: 15px;
 }
 .education-details {
@@ -108,7 +107,7 @@ body {
 .edu {
     border: 2px solid darkblue;
     border-radius: 20px;
-    background-color: rgba(6, 146, 146, 0.6);
+    background-color: rgba(22, 231, 231, 0.568);
 }
 .projects {
     background-color: rgba(240, 255, 255, 0.4);
@@ -142,10 +141,17 @@ body {
     padding: 20px 0px;
     font-size: 25px;
 }
+.other-pages li a{
+    font-size: 20px;
+    color: rgba(238, 81, 225, 0.911);    
+}
 .social-link {
     float: right;
     padding-top: 120px;
-}    
+}  
+a {
+    text-decoration: none;
+} 
 .social-link h3 {
     padding-left: 10px;
     text-align: center;

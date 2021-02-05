@@ -2,7 +2,7 @@
 @media (min-width: 576px) {
     
     .top-logo {
-        margin-right: 260px;
+        margin-right: 140px;
     }    
     .about-details {
         margin-right:100px;               
@@ -43,7 +43,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .top-logo {
-        margin-right: 260px;
+        margin-right: 140px;
     }
     .about-details {
         margin-right:100px;
@@ -59,7 +59,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .top-logo {
-        margin-right: 450px;
+        margin-right: 410px;
     }
     .about-details {
         margin-right:180px;
