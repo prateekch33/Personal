@@ -116,7 +116,8 @@ body {
 }
 .project-details {
     padding-left: 100px;      
-    width: 280px;    
+    width: 280px; 
+    padding-bottom: 30px;   
 }
 .project-details img {
     width: 280px;
@@ -128,6 +129,18 @@ body {
 .project-details p{
     text-align: center;
     padding-bottom: 40px;
+}
+.other-pages {
+    background-color: rgba(0, 255, 255, 0.575);
+    padding-left: 60px;
+    height: 170px;
+    
+    padding-bottom: 20px;
+}
+.other-pages h3 {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 25px;
 }
 .social-link {
     float: right;
