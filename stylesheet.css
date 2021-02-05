@@ -25,7 +25,7 @@ body {
 }
 .top-list li{
     float: left;
-    padding: 30px 40px;
+    padding: 30px 20px;
 }
 .top-list a {
     color: white;
