@@ -123,12 +123,12 @@ body {
     border: 2px solid none;
     border-radius: 10px;
     height: 159px;
-    /* margin-left: 20%; */
+    margin-left: 20%;
     margin-right: 40px;
 }
 .achiev-details p{
     width: 280px;
-    /* margin-left: 20%; */
+    margin-left: 20%;
     margin-right: 40px;
     color: aliceblue;
 }
