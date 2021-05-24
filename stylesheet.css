@@ -112,7 +112,7 @@ body {
 .achiev {
     text-align: center;
     background: rgb(250, 7, 149);
-    margin: -20px 0;
+    /* margin: -20px 0; */
 }
 .achiev-heading {
     padding: 20px 0;
@@ -123,12 +123,12 @@ body {
     border: 2px solid none;
     border-radius: 10px;
     height: 159px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-right: 40px;
 }
 .achiev-details p{
     width: 280px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-right: 40px;
     color: aliceblue;
 }
