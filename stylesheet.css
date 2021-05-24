@@ -45,7 +45,7 @@ body {
     color: rgb(0, 68, 255);   
     height: 490px;    
     padding-bottom: 60px;  
-    background: url("https://i.ibb.co/swZ5YgF/Rocky-Mountains-High-Definition-Wallpapers.jpg");
+    background: url("data/Rocky-Mountains-High-Definition-Wallpapers.jpg");
     background-size: cover;
 }
 .about-details {
