@@ -134,17 +134,31 @@
                     <a href="https://api.whatsapp.com/send?phone=919431796788" target="_blank"><i class="fab fa-whatsapp"></i></a>                              
             </div>
             <div class="contact-form">
-                <form>
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link" enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
                     <h3>Contact Me</h3>
                     <p>Name(Required)</p>
-                    <input name="name" type="text" required placeholder="Name">
+                    <input id="name" name="entry.396361716" type="text" required placeholder="Name">
                     <p>Email Id(Required)</p>
-                    <input name="email" type="email" required placeholder="Email Id">
+                    <input id="email" name="entry.318343981" type="email" required placeholder="Email Id">
                     <p>Message(Required)</p>
-                    <textarea name="message" required placeholder="Message"></textarea>
+                    <textarea id="message" name="entry.631870539" required placeholder="Message"></textarea>
                     <p>*Required fields must be filled</p>
-                    <button type="submit" class="contact-submit">Submit</button> 
-                </form>                               
+                    <button id="submit" type="submit" class="contact-submit">Submit</button> 
+                </form>    
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>   
+                <script type="text/javascript">var submitted=false;</script>   
+                <script type="text/javascript">
+                var submit=document.querySelector("#submit");
+                var name=document.querySelector("#name");
+                var email=document.querySelector("#email");
+                var message=document.querySelector("#message");
+                submit.addEventListener("click", function(){
+                    name.textContent="";
+                    email.textContent="";
+                    message.textContent="";
+                    alert("I will contact you soon. Thanks for Contacting.");                    
+                });
+                </script>                     
             </div>            
         </div>
     </body>
