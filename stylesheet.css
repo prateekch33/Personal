@@ -1,5 +1,6 @@
 body {
-    font-family: "Times";    
+    font-family: "Times";   
+    margin: 0; 
 }
 .header li,.education-details li {
     list-style: none;
@@ -7,25 +8,23 @@ body {
 .header {
     background-color: rgb(74, 74, 197);
     color: white;
-    height: 90px;
-    margin: -20px; 
-    z-index: 0;
+    height: 80px;    
     position: fixed;
     overflow: hidden;
     top: 0;
-    width: 105%;            
+    width: 100%;            
 }
 .top-logo {
     float: left;
     font-size: xx-large;
-    padding: 20px;    
+    padding: 2px;    
     margin-left: 50px;
     margin-top: 16px;
     color: white;
 }
 .top-list li{
     float: left;
-    padding: 30px 20px;
+    padding: 16px 20px;
 }
 .top-list a {
     color: white;
@@ -51,12 +50,12 @@ body {
 .about-details {
     float: right;
     text-align: center;    
-    margin-top: 10px;    
+    margin-top: 0px;    
     height: 390px;
 }    
 .about-details h2 {
-    font-size: 40px;
-    padding-top: -30px;
+    font-size: 36px;
+    padding-top: 20px;
     color: rgb(43, 226, 165);
 }
 .intro {
@@ -64,7 +63,7 @@ body {
     border: 0px solid;
     border-radius: 15px;
     padding: 5px 10px 2px 10px;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 .about-details p {    
     text-align: center;    
@@ -73,12 +72,12 @@ body {
 }
 .project-heading h2{
     text-align: center;    
-    padding-top: 20px;      
+    padding-top: 5px;      
 }
 .profile-image {
     height: 80%;
     width: 30%;    
-    margin-top: 70px;    
+    margin-top: 80px;    
     border: 0px solid;
     border-radius: 10px;
 }    
@@ -113,9 +112,10 @@ body {
     text-align: center;
     background: rgb(250, 7, 149);
     /* margin: -20px 0; */
+    padding-bottom: 20px;
 }
 .achiev-heading {
-    padding: 20px 0;
+    padding: 5px 0;
 }
 .achiev-details img{
     width: 280px;
@@ -137,12 +137,12 @@ body {
 }
 .projects {
     background-color: rgba(240, 255, 255, 0.4);
-    margin-bottom: -60px;
+    padding-left: 5px;
 }
 .project-details {
     padding-left: 100px;      
     width: 280px; 
-    padding-bottom: 30px;   
+    padding-bottom: 10px;   
 }
 .project-details img {
     width: 280px;
@@ -153,13 +153,12 @@ body {
 }
 .project-details p{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 .other-pages {
     background-color: rgba(0, 255, 255, 0.575);
-    padding-left: 60px;
-    height: 170px;
-    
+    padding-left: 10px;
+    height: 170px;    
     padding-bottom: 40px;
 }
 .other-pages h3 {
@@ -193,12 +192,15 @@ a {
 }
 input,textarea,button {
     width: 320px;    
-    margin-top:5px;
-    margin-bottom:10px;
-    padding:10px;
+    margin-top:2px;
+    margin-bottom:5px;
+    padding: 10px;
     font-size:18px;
     border:1px solid #bccad1;
     border-radius: 8px;    
+}
+textarea {
+    height: 80px;
 }
 .contact-form h3 {    
     color: antiquewhite;  
@@ -212,13 +214,20 @@ input,textarea,button {
 }
 .contact-submit {
     background-color: rgb(165, 163, 163);    
+    display: inline-block;
+    box-shadow: 0 2px grey;
 }
 .contact-submit:hover {
-    background-color: darkgray;
+    background-color: blue;
+}
+.contact-submit:active {
+    background-color: rgb(165, 163, 163);
+    box-shadow: 0 2px black;
+    transform: translateY(2px);
 }
 .footer {
     background-color: rgba(80, 80, 150, 0.5);
-    margin-left: -20px;
-    margin-right: -20px;    
-    margin-bottom: -20px;
+    margin-left: 0px;
+    margin-right: 0px;    
+    padding-bottom: 40px;
 }
