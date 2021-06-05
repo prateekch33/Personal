@@ -6,7 +6,7 @@ body {
     list-style: none;
 }
 .header {
-    background-color: rgb(74, 74, 197);
+    background-color: rgb(109, 109, 204);
     color: white;
     height: 80px;    
     position: fixed;
@@ -32,11 +32,13 @@ body {
 .skill-list {
     border: 2px solid darkblue;
     border-radius: 20px;
-    background-color: rgba(209, 201, 92, 0.7);
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 }
 
 .details {
-    background-color: rgba(137, 43, 226, 0.692);
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     padding-bottom: 40px;
     margin-top: 0px;
 }
@@ -50,8 +52,9 @@ body {
 .about-details {
     float: right;
     text-align: center;    
-    margin-top: 0px;    
+    margin-top: -10px;    
     height: 390px;
+    font-weight: bold;
 }    
 .about-details h2 {
     font-size: 36px;
@@ -83,7 +86,9 @@ body {
 }    
 .skills {
     float: left;    
-    color: beige;    
+    color: rgb(255, 255, 255);    
+    font-size: 20px;    
+    font-weight: bold;
 }
 .skill-top {
     font-size: 40px;
@@ -96,22 +101,36 @@ body {
 }
 .education-details {
     text-align: center;    
-    color: cornsilk;
+    color: rgb(255, 0, 242);
     margin-bottom: 10px; 
-    padding-top: 10px;       
+    padding-top: 10px;      
+    font-weight: bold;
+}
+.education-details h3 {
+    text-decoration: underline;     
+}
+.education-details p {
+    font-size: 20px;
+    color: rgb(49, 49, 48);
+    
 }
 .education-details h2 {
     font-size: 30px;
+    color: rgb(255, 255, 252);
 }
 .edu {
     border: 2px solid darkblue;
     border-radius: 20px;
-    background-color: rgba(22, 231, 231, 0.568);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .achiev {
     text-align: center;
-    background: rgb(250, 7, 149);
-    /* margin: -20px 0; */
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #f8c6e2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #f8c6e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
     padding-bottom: 20px;
 }
 .achiev-heading {
@@ -136,18 +155,24 @@ body {
     font-weight: bold;
 }
 .projects {
-    background-color: rgba(240, 255, 255, 0.4);
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-left: 5px;
+    margin: -20px 0px -25px 0px;
 }
 .project-details {
     padding-left: 100px;      
     width: 280px; 
     padding-bottom: 10px;   
 }
+.project-heading{
+    padding-top: 5px;
+}
 .project-details img {
     width: 280px;
-    margin-top: 40px;
-    border: 2px solid yellow;
+    margin-top: 20px;
+    border: 2px solid none;
     border-radius: 10px;
     height: 159px;
 }
@@ -156,7 +181,9 @@ body {
     padding-bottom: 10px;
 }
 .other-pages {
-    background-color: rgba(0, 255, 255, 0.575);
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-left: 10px;
     height: 170px;    
     padding-bottom: 40px;
@@ -168,7 +195,7 @@ body {
 }
 .other-pages li a{
     font-size: 20px;
-    color: rgba(238, 81, 225, 0.911);    
+    color: rgba(37, 10, 158, 0.911);    
 }
 .other-pages td {
     padding-left: 60px;
@@ -203,7 +230,8 @@ textarea {
     height: 80px;
 }
 .contact-form h3 {    
-    color: antiquewhite;  
+    color: antiquewhite;
+    margin-left: -20px;  
 }
 .contact-form p {
     color: wheat;
@@ -218,7 +246,7 @@ textarea {
     box-shadow: 0 2px grey;
 }
 .contact-submit:hover {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.603);
 }
 .contact-submit:active {
     background-color: rgb(165, 163, 163);
@@ -226,7 +254,7 @@ textarea {
     transform: translateY(2px);
 }
 .footer {
-    background-color: rgba(80, 80, 150, 0.5);
+    background-color: rgba(71, 71, 122, 0.5);
     margin-left: 0px;
     margin-right: 0px;    
     padding-bottom: 40px;

@@ -35,9 +35,6 @@
         margin-top: 80px;
         margin-bottom: 0px;    
     }
-    .other-pages {
-        margin-bottom: 0px;
-    }
   }
 
 /* Medium devices (tablets, 768px and up) */
@@ -70,9 +67,11 @@
     .education-details {
         padding-left: 630px;
         padding-right: 100px;
+        width: 500px;
     }
     .skills {
         padding-left: 160px;
+        width: 340px;
     }    
     .contact-form {
         padding-left: 200px;
@@ -89,9 +88,6 @@
     }
     .main {
         margin-top: 80px;    
-    }
-    .other-pages {
-        margin-bottom: 0px;
     }
  }
 
