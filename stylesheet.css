@@ -27,9 +27,7 @@ body {
     background-color: rgb(230, 216, 171);
     z-index: 100;    
 }
-#loader{
-    height: 40%;
-    width: 20%;
+#loader{    
     animation: pump-in-out 2.5s alternate;
     animation-iteration-count: infinite;
 }
