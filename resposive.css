@@ -1,6 +1,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    
+    #loader{
+        width:30%;
+        height:20%;
+    }
     .top-logo {
         margin-right: 60px;
     }    
