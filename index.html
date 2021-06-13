@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Prateek Chandra</title>
-    <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico"/>
+    <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico" />
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="resposive.css">
     <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>
@@ -15,17 +15,6 @@
     <div class="pre-loader">
         <img id="loader" src="data/P.png"></img>
     </div>
-    <script>
-        $(window).on('load', function () {
-            setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
-        });
-        function removeLoader() {
-            $(".pre-loader").fadeOut(500, function () {
-                // fadeOut complete. Remove the loading div
-                $(".pre-loader").remove(); //makes page more lightweight 
-            });
-        }
-    </script>
     <div class="header">
         <a href="#">
             <h2 class="top-logo">Prateek</h2>
@@ -171,7 +160,6 @@
                     class="fab fa-whatsapp"></i></a>
         </div>
         <div class="contact-form">
-            <script type="text/javascript">var submitted = false;</script>
             <form
                 action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link"
                 enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
@@ -186,11 +174,7 @@
                 <button id="submit" type="submit" class="contact-submit">Submit</button>
             </form>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-            <script type="text/javascript">
-                submit.addEventListener("click", function () {
-                    alert("I will contact you soon. Thanks for Contacting.\nAny mail from \"prateekchandra76@gmail.com\" is valid and we will communicate thorugh this only.\nBut please don't send any mail directly.\nFirst Fill the form then you get the reply soon after that we can communicate.🙂");
-                });
-            </script>
+            <script type="text/javascript" src="assets/profile.js"></script>
         </div>
     </div>
 </body>
