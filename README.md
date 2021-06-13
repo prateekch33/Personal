@@ -19,3 +19,7 @@ Update 02-06-2021:
 Update 03-06-2021:
 
 >Some Minor Changes and resposiveness added.
+
+Update 13-06-2021:
+
+>Preloader Added, Some Animation added, and now the page has a icon
