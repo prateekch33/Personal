@@ -23,3 +23,5 @@ Update 03-06-2021:
 Update 13-06-2021:
 
 >Preloader Added, Some Animation added, and now the page has a icon
+
+>Design Changes and Other Pages Removed

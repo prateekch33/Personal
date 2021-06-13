@@ -5,7 +5,7 @@
         height:20%;
     }
     .top-logo {
-        margin-right: 60px;
+        margin-right: 100px;
     }    
     .about-details {
         margin-right:100px;               
@@ -14,13 +14,16 @@
         margin-left: 110px;
     }
     .education-details {
-        padding-left: 430px;
-        padding-right: 80px;
+        padding-left: 400px;
+        padding-right: 60px;
     }
     .skills {
         padding-left: 110px;
         margin-top: 10px;
         width: 240px;
+    }
+    .project-details td {
+        padding-left: 20px;
     }
     .contact-form {
         padding-left: 180px;
@@ -52,6 +55,9 @@
     .profile-image {
         margin-left: 110px;
     }
+    .project-details td {
+        padding-left: 30px;
+    }
     .contact-form h3 {
         padding-left: 110px;
     }
@@ -81,6 +87,9 @@
         padding-left: 160px;
         width: 300px;
     }    
+    .project-details td {
+        padding-left: 100px;
+    }
     .contact-form {
         padding-left: 200px;
     }
