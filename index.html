@@ -1,158 +1,198 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Prateek Chandra</title>
-        <link rel="stylesheet" href="stylesheet.css"> 
-        <link rel="stylesheet" href="resposive.css">
-        <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>     
-    </head>
-    <body>
-        <div class="header">
-            <a href="#"><h2 class="top-logo">Prateek</h2></a>
-            <div class="top-list">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#pages">Other Pages</a></li> 
-                    <li><a href="#contact">Contacts</a></li>                                       
-                </ul>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <title>Prateek Chandra</title>
+    <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="resposive.css">
+    <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pre-loader">
+        <img id="loader" src="data/P.png"></img>
+    </div>
+    <script>
+        $(window).on('load', function () {
+            setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+        });
+        function removeLoader() {
+            $(".pre-loader").fadeOut(500, function () {
+                // fadeOut complete. Remove the loading div
+                $(".pre-loader").remove(); //makes page more lightweight 
+            });
+        }
+    </script>
+    <div class="header">
+        <a href="#">
+            <h2 class="top-logo">Prateek</h2>
+        </a>
+        <div class="top-list">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#pages">Other Pages</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
         </div>
-        <div class="main">
-            <div id="about" class="about">
-                <div class="about-details">
-                    <h2>
-                        Welcome
-                    </h2>
-                    <div class="intro">
-                        <p>I'm Prateek Chandra</p>
-                        <div class="explain">
-                            <p>
-                                Currently Engineering Undergraduate at Indian Institute of Information Technology,  Bhagalpur belongs to Electronics and Communication Engineering Branch.</p>
-                            <p>
-                                I lived in Dhanbad, Jharkhand.
-                            </p>
-                            <p>
-                                Contact No. :- 9431796788
-                            </p>
-                            <p>
-                                Email Id :- prateekchandra27@outlook.com
-                            </p>
-                        </div>                    
-                    </div>                    
-                </div>                
-                <img  class="profile-image" src="data/Prateek-Chandra.jpg">
-            </div>
-            <div id="profile" class="details">
-                <div class="skills">
-                    <h2 class="skill-top">Skills</h2>
-                    <ol class="skill-list">
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>Web Development (Learning)</li>
-                        <li>AI/ML (Learning)</li>
-                        <p>More skills learning in progress.</p>
-                    </ol>                
-                </div>            
-                <div class="education-details">
-                    <h2>Education Details</h2>
-                    <ol>
-                        <li class="edu">
-                            <h3>B.Tech</h3>
-                            <p>Indian Institute of Information Technology, Bhagalpur</p>
-                            <p>2020-present</p>
-                        </li>
-                        <li class="edu">
-                            <h3>12th</h3>
-                            <p>D.A.V. Public School Moonidih Project, Moonidih, Dhanbad</p>
-                            <p>2017-2019</p>
-                        </li>
-                        <li class="edu">
-                            <h3>10th</h3>
-                            <p>Imperial School of Learning, Bhuli, Dhanbad</p>
-                            <p>2015-2017</p>
-                        </li>
-                    </ol>                              
-                </div>
-            </div> 
-            <div id="achievements" class="achiev">
-                <div class="achiev-heading">
-                    <h2>Achievements</h2>
-                </div>
-                <div class="achiev-details">
-                    <table>
-                        <tr>
-                            <td><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img src="data/GuviCertification - p931eQ567810o3gdD1.png"></a><p>Certicate of Completion of <span>Build a Face Recognition Application using Python</span></p></td>
-                            <td><a href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O" target="_blank"><img src="data/156246077_206556317878688_4866132415255642547_n.jpg"></a><p>2nd Position in <span>Hackathon</span> organised by <span>WebVerse(IIITBH)</span></p></td>
-                        </tr>
-                    </table>
+    </div>
+    <div class="main">
+        <div id="about" class="about">
+            <div class="about-details">
+                <h2>
+                    Welcome
+                </h2>
+                <div class="intro">
+                    <p>I'm Prateek Chandra</p>
+                    <div class="explain">
+                        <p>
+                            Currently Engineering Undergraduate at Indian Institute of Information Technology, Bhagalpur
+                            belongs to Electronics and Communication Engineering Branch.</p>
+                        <p>
+                            I lived in Dhanbad, Jharkhand.
+                        </p>
+                        <p>
+                            Contact No. :- 9431796788
+                        </p>
+                        <p>
+                            Email Id :- prateekchandra27@outlook.com
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div id="project" class="projects">
-                <div class="project-heading">
-                    <h2>Projects</h2>
-                </div>            
-                <div class="project-details">                
-                    <a href="https://prateekch33.github.io/Portfolio_prateekch33/" target="_blank"><img src="data/2021-01-14-1.png"></a>
-                    <p>Progate Project on buliding a Portfolio Website.</p>
-                </div>
-            </div> 
-            <div id="pages" class="other-pages">
-                <h3>Other Pages</h3>
+            <img class="profile-image" src="data/Prateek-Chandra.jpg">
+        </div>
+        <div id="profile" class="details">
+            <div class="skills">
+                <h2 class="skill-top">Skills</h2>
+                <ol class="skill-list">
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Web Development (Learning)</li>
+                    <li>AI/ML (Learning)</li>
+                    <p>More skills learning in progress.</p>
+                </ol>
+            </div>
+            <div class="education-details">
+                <h2>Education Details</h2>
                 <ol>
-                    <table>
-                        <tr>
-                            <td>
-                                <!-- <li><a href="https://prateekch33.github.io/Tic-Tac-Toe/" target="_blank"><p>Tic Tac Toe Page</p></a></li> -->
-                                <li><a href="https://prateekch33.github.io/Image-Gallery/"target="_blank"><p>Image Gallery Page</p></a></li>
-                            </td>
-                            <!-- <td> -->
-                                <!-- <li><a href="https://prateekch33.github.io/Guess-a-No/" target="_blank"><p>Guess The No</p></a></li> -->
-                                <!-- <li><a href="https://prateekch33.github.io/Annoy-omatic/"target="_blank"><p>Annoy-omatic</p></a></li> -->
-                            <!-- </td> -->                            
-                            <td>
-                                <li><a href="https://prateekch33.github.io/Hackathon/" target="_blank"><p>BoomSell Corporation</p></a></li>
-                            </td>
-                            <td>
-                                <li><a href="https://prateekch33.github.io/Color-Game/" target="_blank"><p>Color Game</p></a></li>
-                            </td>
-                        </tr>
-                    </table>                    
-                </ol>                    
-            </div>                      
-        </div>
-        <div id="contact" class="footer">
-            <div class="social-link">
-                <h3>Lets go Social!</h3>                
-                    <a href="https://github.com/prateekch33" target="_blank"><i class="fa fa-github" ></i></a>
-                    <a href="https://www.linkedin.com/in/prateek-chandra-18712a202" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://twitter.com/PrateekCh33" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/prateekc33/" target="_blank"><i class="fa fa-facebook" ></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=919431796788" target="_blank"><i class="fab fa-whatsapp"></i></a>                              
+                    <li class="edu">
+                        <h3>B.Tech</h3>
+                        <p>Indian Institute of Information Technology, Bhagalpur</p>
+                        <p>2020-present</p>
+                    </li>
+                    <li class="edu">
+                        <h3>12th</h3>
+                        <p>D.A.V. Public School Moonidih Project, Moonidih, Dhanbad</p>
+                        <p>2017-2019</p>
+                    </li>
+                    <li class="edu">
+                        <h3>10th</h3>
+                        <p>Imperial School of Learning, Bhuli, Dhanbad</p>
+                        <p>2015-2017</p>
+                    </li>
+                </ol>
             </div>
-            <div class="contact-form">
-                <script type="text/javascript">var submitted=false;</script>   
-                <form action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link" enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
-                    <h3>Contact Me</h3>
-                    <p>Name(Required)</p>
-                    <input id="nm" name="entry.396361716" type="text" required placeholder="Name">
-                    <p>Email Id(Required)</p>
-                    <input id="email" name="entry.318343981" type="email" required placeholder="Email Id">
-                    <p>Message(Required)</p>
-                    <textarea id="message" name="entry.631870539" required placeholder="Message"></textarea>
-                    <p>*Required fields must be filled</p>
-                    <button id="submit" type="submit" class="contact-submit">Submit</button> 
-                </form>    
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>                   
-                <script type="text/javascript">                
-                submit.addEventListener("click", function(){                                       
-                    alert("I will contact you soon. Thanks for Contacting.\nAny mail from \"prateekchandra76@gmail.com\" is valid and we will communicate thorugh this only.\nBut please don't send any mail directly.\nFirst Fill the form then you get the reply soon after that we can communicate.🙂");                                                 
-                });
-                </script>                     
-            </div>            
         </div>
-    </body>
+        <div id="achievements" class="achiev">
+            <div class="achiev-heading">
+                <h2>Achievements</h2>
+            </div>
+            <div class="achiev-details">
+                <table>
+                    <tr>
+                        <td><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img
+                                    src="data/GuviCertification - p931eQ567810o3gdD1.png"></a>
+                            <p>Certicate of Completion of <span>Build a Face Recognition Application using Python</span>
+                            </p>
+                        </td>
+                        <td><a href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O"
+                                target="_blank"><img src="data/156246077_206556317878688_4866132415255642547_n.jpg"></a>
+                            <p>2nd Position in <span>Hackathon</span> organised by <span>WebVerse(IIITBH)</span></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="project" class="projects">
+            <div class="project-heading">
+                <h2>Projects</h2>
+            </div>
+            <div class="project-details">
+                <a href="https://prateekch33.github.io/Portfolio_prateekch33/" target="_blank"><img
+                        src="data/2021-01-14-1.png"></a>
+                <p>Progate Project on buliding a Portfolio Website.</p>
+            </div>
+        </div>
+        <div id="pages" class="other-pages">
+            <h3>Other Pages</h3>
+            <ol>
+                <table>
+                    <tr>
+                        <td>
+                            <!-- <li><a href="https://prateekch33.github.io/Tic-Tac-Toe/" target="_blank"><p>Tic Tac Toe Page</p></a></li> -->
+                            <li><a href="https://prateekch33.github.io/Image-Gallery/" target="_blank">
+                                    <p>Image Gallery Page</p>
+                                </a></li>
+                        </td>
+                        <!-- <td> -->
+                        <!-- <li><a href="https://prateekch33.github.io/Guess-a-No/" target="_blank"><p>Guess The No</p></a></li> -->
+                        <!-- <li><a href="https://prateekch33.github.io/Annoy-omatic/"target="_blank"><p>Annoy-omatic</p></a></li> -->
+                        <!-- </td> -->
+                        <td>
+                            <li><a href="https://prateekch33.github.io/Hackathon/" target="_blank">
+                                    <p>BoomSell Corporation</p>
+                                </a></li>
+                        </td>
+                        <td>
+                            <li><a href="https://prateekch33.github.io/Color-Game/" target="_blank">
+                                    <p>Color Game</p>
+                                </a></li>
+                        </td>
+                    </tr>
+                </table>
+            </ol>
+        </div>
+    </div>
+    <div id="contact" class="footer">
+        <div class="social-link">
+            <h3>Lets go Social!</h3>
+            <a href="https://github.com/prateekch33" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/prateek-chandra-18712a202" target="_blank"><i
+                    class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/PrateekCh33" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/prateekc33/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=919431796788" target="_blank"><i
+                    class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="contact-form">
+            <script type="text/javascript">var submitted = false;</script>
+            <form
+                action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link"
+                enctype="text/plain" target="hidden_iframe" onsubmit="submitted=true;">
+                <h3>Contact Me</h3>
+                <p>Name(Required)</p>
+                <input id="nm" name="entry.396361716" type="text" required placeholder="Name">
+                <p>Email Id(Required)</p>
+                <input id="email" name="entry.318343981" type="email" required placeholder="Email Id">
+                <p>Message(Required)</p>
+                <textarea id="message" name="entry.631870539" required placeholder="Message"></textarea>
+                <p>*Required fields must be filled</p>
+                <button id="submit" type="submit" class="contact-submit">Submit</button>
+            </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+            <script type="text/javascript">
+                submit.addEventListener("click", function () {
+                    alert("I will contact you soon. Thanks for Contacting.\nAny mail from \"prateekchandra76@gmail.com\" is valid and we will communicate thorugh this only.\nBut please don't send any mail directly.\nFirst Fill the form then you get the reply soon after that we can communicate.🙂");
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
 </html>
