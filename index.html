@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,8 +7,11 @@
     <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico" />
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="resposive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -59,33 +62,50 @@
         <section id="profile" class="details">
             <div class="skills">
                 <h2 class="skill-top">Skills</h2>
-                <ol class="skill-list">
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Web Development (Learning)</li>
-                    <li>AI/ML (Learning)</li>
-                    <p>More skills learning in progress.</p>
-                </ol>
+                <div class="skills-details">
+                    <h4 class="progress-item">HTML: </h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                    </div>
+                </div>
+                <div class="skills-details">
+                    <h4 class="progress-item">CSS: </h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
+                    </div>
+                </div>
+                <div class="skills-details">
+                    <h4 class="progress-item">C++: </h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+                    </div>
+                </div>
             </div>
             <div class="education-details">
-                <h2>Education Details</h2>
-                <ol>
-                    <li class="edu">
-                        <h3>B.Tech</h3>
-                        <p>Indian Institute of Information Technology, Bhagalpur</p>
-                        <p>2020-present</p>
+                <h2 class="edu-top">Education Details</h2>
+                <ul class="timeline">
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Indian Institute of Information Technology, Bhagalpur</h2><span class="small text-gray"><i
+                                class="fa fa-clock-o mr-1"></i>2020 - Present</span>
+                        <p class="text-small mt-2 font-weight-light">Currently pursuing B.Tech in Electronics & Communication Engineering.</p>
                     </li>
-                    <li class="edu">
-                        <h3>12th</h3>
-                        <p>D.A.V. Public School Moonidih Project, Moonidih, Dhanbad</p>
-                        <p>2017-2019</p>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">D.A.V. Public School, Moonidih</h2><span class="small text-gray"><i
+                                class="fa fa-clock-o mr-1"></i>2017 - 19</span>
+                        <p class="text-small mt-2 font-weight-light">Passed 12th in Science Major with 91.4% aggregate.</p>                        
                     </li>
-                    <li class="edu">
-                        <h3>10th</h3>
-                        <p>Imperial School of Learning, Bhuli, Dhanbad</p>
-                        <p>2015-2017</p>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Indian School of Learning, Moonidih</h2><span class="small text-gray"><i
+                                class="fa fa-clock-o mr-1"></i>2015-19</span>
+                        <p class="text-small mt-2 font-weight-light">Passed 10th with 10 CGPA.</p>
                     </li>
-                </ol>
+                </ul>
             </div>
         </section>
         <section id="achievements" class="achiev">
@@ -93,19 +113,19 @@
                 <h2>Achievements</h2>
             </div>
             <div class="achiev-details">
-                <table>
-                    <tr>
-                        <td><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img
+                <!-- <table> -->
+                    <ul>
+                        <li><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img
                                     src="data/GuviCertification - p931eQ567810o3gdD1.png"></a>
                             <p>Certicate of Completion of <span>Build a Face Recognition Application using Python</span>
                             </p>
-                        </td>
-                        <td><a href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O"
+                        </li>
+                        <li><a href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O"
                                 target="_blank"><img src="data/156246077_206556317878688_4866132415255642547_n.jpg"></a>
                             <p>2nd Position in <span>Hackathon</span> organised by <span>WebVerse(IIITBH)</span></p>
-                        </td>
-                    </tr>
-                </table>
+                        </li>
+                    </ul>
+                <!-- </table> -->
             </div>
         </section>
         <section id="project" class="projects">
@@ -114,59 +134,35 @@
             </div>
             <div class="project-details">
                 <table>
-                    <tr>
-                        <td>
+                    <ul>
+                        <li>
                             <a href="https://prateekch33.github.io/To-Do-List/" target="_blank"><img
                                     src="data/To-Do List.png"></a>
                             <p><strong>To-Do List</strong><br><br>In this you can make a list of the task and take a
                                 soft copy of the task in a PDF File.</p>
-                        </td>
-                        <td>
+                        </li>
+                        <li>
                             <a href="https://prateekch33.github.io/Image-Gallery/" target="_blank"><img
                                     src="data/Image-Gallery.png"></a>
                             <p><strong>Image Gallery Page</strong><br><br>You can find some Images here.</p>
-                        </td>
-                        <td>
+                        </li>
+                        <li>
                             <a href="https://prateekch33.github.io/Yt-Site/" target="_blank"><img
                                     src="data/Yt-Site.png"></a>
                             <p><strong>One Playlist Youtube</strong><br><br>This is mini Youtube.</p>
-                        </td>                        
-                    </tr>
-                    <tr>
-                        <td>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
                             <a href="https://prateekch33.github.io/Color-Game/" target="_blank"><img
                                     src="data/Color-Game.png"></a>
                             <p><strong>Color Game</strong><br><br>This is an interesting game of exact color finding
                                 from the given data.</p>
-                        </td>
-                    </tr>
+                        </li>
+                    </ul>
                 </table>
             </div>
         </section>
-        <!-- <section id="pages" class="other-pages">
-            <h3>Other Pages</h3>
-            <ol>
-                <table>
-                    <tr>
-                        <td>
-                            <li><a href="https://prateekch33.github.io/Image-Gallery/" target="_blank">
-                                    <p>Image Gallery Page</p>
-                                </a></li>
-                        </td>
-                        <td>
-                            <li><a href="https://prateekch33.github.io/Yt-Site/" target="_blank">
-                                    <p>One Playlist Youtube</p>
-                                </a></li>
-                        </td>
-                        <td>
-                            <li><a href="https://prateekch33.github.io/Color-Game/" target="_blank">
-                                    <p>Color Game</p>
-                                </a></li>
-                        </td>
-                    </tr>
-                </table>
-            </ol>
-        </section> -->
     </div>
     <section id="contact" class="footer">
         <div class="social-link">

@@ -13,17 +13,18 @@
     .profile-image {
         margin-left: 110px;
     }
-    .education-details {
+    /* .education-details {
         padding-left: 400px;
         padding-right: 60px;
-    }
-    .skills {
+    } */
+    /* .skills {
         padding-left: 110px;
         margin-top: 10px;
         width: 240px;
-    }
-    .project-details td {
-        padding-left: 20px;
+    } */
+    .project-details li {
+        /* margin-left: 1px; */
+        padding-right: 2px;
     }
     .contact-form {
         padding-left: 180px;
@@ -55,8 +56,8 @@
     .profile-image {
         margin-left: 110px;
     }
-    .project-details td {
-        padding-left: 30px;
+    .project-details li {
+        margin-left: 30px;
     }
     .contact-form h3 {
         padding-left: 110px;
@@ -78,17 +79,17 @@
     .profile-image {
         margin-left: 190px;
     }
-    .education-details {
+    /* .education-details {
         padding-left: 630px;
         padding-right: 100px;
         width: 500px;
-    }
-    .skills {
+    } */
+    /* .skills {
         padding-left: 160px;
         width: 300px;
-    }    
-    .project-details td {
-        padding-left: 100px;
+    }     */
+    .project-details li {
+        margin-left: 100px;
     }
     .contact-form {
         padding-left: 200px;

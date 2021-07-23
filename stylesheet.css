@@ -56,7 +56,7 @@ body {
 }
 .top-list li{
     float: left;
-    padding: 16px 25px;
+    padding: 12px 25px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -64,8 +64,8 @@ body {
     color: white;
 }
 .details {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    /* background-color: #8BC6EC; */
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
     padding-bottom: 40px;
     margin-top: 0px;
 }
@@ -121,7 +121,7 @@ body {
     margin-top: 80px;    
     border: 0px solid;
     border-radius: 10px; 
-    animation: up-down 2s alternate;
+    animation: up-down 1s alternate;
     animation-iteration-count: infinite;  
     overflow: hidden;
     position: auto; 
@@ -135,75 +135,115 @@ body {
     }
 }   
 .skills {
-    float: left;    
-    color: rgb(255, 255, 255);    
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;   
     font-size: 20px;    
-    font-weight: normal;    
+    font-weight: normal;  
+    background-color: rgb(38, 221, 206);
+}
+.progress {
+    margin-top: -29px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    width: 100%;    
+}
+.skills-details {
+    display: block;
+}
+.progress-item {
+    margin-right: 2%;
+    color: aliceblue;
+    /* margin-bottom: 4%; */
 }
 .skill-top {
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
-    margin-bottom: -5px;
-}
-.skills li {
-    padding: 20px 0px;
-    padding-right: 40px;
-    font-size: 18px;
-}
-.skill-list {
-    border: 2px solid none;
-    border-radius: 20px;
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    padding-bottom: 20px;
-}
-.skill-list p{
-    margin-left: -20px;
-    color: rgb(4, 107, 121);
-    font-style: italic;
+    margin-bottom: 5%;
+    margin-left: 12%;
 }
 .education-details {
-    text-align: center;    
-    color: rgb(255, 0, 242);
-    margin-bottom: 10px; 
-    padding-top: 10px;      
-    font-weight: normal;
+    padding-left: 14%;
+    background-color: #56CCF2;
+    padding-bottom: 2%;
+    margin-bottom: -40px;
 }
-.education-details h3 {
-    text-decoration: underline; 
-    font-size: 24px;    
+.edu-top {
+    text-align: center;
+    padding-top: 30px;
+    margin-left: -10%;
 }
-.education-details p {
-    font-size: 20px;
-    color: rgb(49, 49, 48);
-    
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-top: 6%;
+    width: 80%;
 }
-.education-details h2 {
-    font-size: 30px;
-    color: rgb(255, 255, 252);
-    padding-left: 40px;
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: rgb(32, 27, 27);
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 20;
+    border-radius: 1rem;
 }
-.edu {
-    border: 2px solid none;
-    border-radius: 20px;
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #c9f6fc, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #c9f6fc, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 10px 0;
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid rgb(32, 27, 27);
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(32, 27, 27);
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 20;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .achiev {
     text-align: center;
-    background: #FBD3E9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #BB377D, #f8c6e2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #BB377D, #f8c6e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    background-color: rgb(38, 221, 206);
     padding-bottom: 20px;
 }
 .achiev-heading {
-    padding: 5px 0;
+    padding: 20px 0;
+}
+.achiev-details {
+    margin-left: -5%;
+}
+.achiev-details ul{
+    display: flex;
+    width: 100%;
+}
+.achiev-details li {
+    list-style-type: none;
 }
 .achiev-details img{
     width: 280px;
-    margin-top: 05px;
+    margin-top: 10px;
     border: 2px solid none;
     border-radius: 10px;
     height: 159px;
@@ -218,19 +258,24 @@ body {
 }
 .achiev-details p span{
     font-weight: bold;
-}
-.projects {
-    background: #D3CCE3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
-}
+} 
 .project-details { 
-    padding-left: 10px;         
+    padding-left: 0px;         
     width: 280px; 
     padding-bottom: 10px;   
 }
 .project-heading{
-    padding: 5px 0;
+    padding: 20px 0;
+}
+.project-details {
+    margin-left: -3%;
+}
+.project-details ul{
+    display: flex;
+    width: 100%;
+}
+.project-details li {
+    list-style-type: none;    
 }
 .project-details img {
     width: 280px;
@@ -246,26 +291,6 @@ body {
 .project-details strong{
     font-size: 24px;
 }
-/* .other-pages {
-    background: #2193b0;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #6dd5ed, #2193b0); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* padding-left: 10px; */
-    /* height: 170px;     */
-    /* padding-bottom: 40px; */
-/* } */
-/* .other-pages h3 {
-    text-align: center;
-    padding: 20px 0px;
-    font-size: 25px;
-}
-.other-pages li a{
-    font-size: 20px;
-    color: rgba(37, 10, 158, 0.911);    
-}
-.other-pages td {
-    padding-left: 60px;
-} */
 .social-link {
     float: right;
     padding-top: 120px;
@@ -333,7 +358,7 @@ textarea {
     background-color: #000000;
     background-image: linear-gradient(to right, #000000, #525151);
     height: 20px;
-    padding-top: 1px;
+    padding-top: 1%;
     padding-bottom: 40px;
     font-size: 18px;
     font-weight: bold;
@@ -342,3 +367,7 @@ textarea {
 .copyright i {
     padding-right: 0.5%;
 }
+/* body{
+    background:#eee;
+    margin-top:20px;
+} */
