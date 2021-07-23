@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    setTimeout(removeLoader, 5000); //wait for page load PLUS two seconds.
+    setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
 });
 $(document).ready(function () {
     $(this).scrollTop(0);
