@@ -1,201 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Prateek Chandra</title>
-    <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico" />
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="resposive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Prateek Chandra</title>
+  <link rel="shortcut icon" type="image/jpg" href="data/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/unicons.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="https://kit.fontawesome.com/fdb8b6bfad.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div class="pre-loader">
-        <img id="loader" src="data/P.png"></img>
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Prateek Chandra</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link"><span data-hover="Profile">Profile</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#achievements" class="nav-link"><span data-hover="Achievements">Achievements</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-lg-auto">
+          <div class="ml-lg-4">
+            <div class="color-mode d-lg-flex justify-content-center align-items-center">
+              <i class="color-mode-icon"></i>
+              Color mode
+            </div>
+          </div>
+        </ul>
+      </div>
     </div>
-    <section class="header">
-        <a href="#">
-            <h2 class="top-logo">Prateek</h2>
-        </a>
-        <div class="top-list">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#project">Projects</a></li>
-                <!-- <li><a href="#pages">Other Pages</a></li> -->
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
+  </nav>
+  <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+          <div class="about-text">
+            <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+            <h1 class="animated animated-text">
+              <span class="mr-2">Hi Guys, I'm</span>
+              <div class="animated-info">
+                <span class="animated-item">Prateek Chandra</span>
+                <span class="animated-item">Web Developer</span>
+                <span class="animated-item">Student at IIITBH</span>
+              </div>
+            </h1>
+
+            <p>Right Now Learning and Improving my Web Development Skills. Knowledge of Frontend and somepart of
+              Backend.</p>
+
+            <div class="custom-btn-group mt-4">
+              <!-- <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a> -->
+              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact Me</a>
+            </div>
+          </div>
         </div>
-    </section>
-    <div class="main">
-        <section id="about" class="about">
-            <div class="about-details">
-                <h2>
-                    Welcome
-                </h2>
-                <div class="intro">
-                    <p>I'm <strong>Prateek Chandra</strong></p>
-                    <div class="explain">
-                        <p>
-                            Currently Engineering Undergraduate at <strong>Indian Institute of Information Technology,
-                                Bhagalpur</strong></p>
-                        <p>
-                            I lived in Dhanbad, Jharkhand.
-                        </p>
-                        <p>
-                            Contact No. :- 9431796788
-                        </p>
-                        <p>
-                            Email Id :-<br>prateekchandra27@outlook.com<br>prateekchandra76@gmail.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <img class="profile-image" src="data/Prateek-Chandra.png">
-        </section>
-        <section id="profile" class="details">
-            <div class="skills">
-                <h2 class="skill-top">Skills</h2>
-                <div class="skills-details">
-                    <h4 class="progress-item">HTML: </h4>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
-                    </div>
-                </div>
-                <div class="skills-details">
-                    <h4 class="progress-item">CSS: </h4>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
-                    </div>
-                </div>
-                <div class="skills-details">
-                    <h4 class="progress-item">C++: </h4>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
-                    </div>
-                </div>
-            </div>
-            <div class="education-details">
-                <h2 class="edu-top">Education Details</h2>
-                <ul class="timeline">
-                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0">Indian Institute of Information Technology, Bhagalpur</h2><span class="small text-gray"><i
-                                class="fa fa-clock-o mr-1"></i>2020 - Present</span>
-                        <p class="text-small mt-2 font-weight-light">Currently pursuing B.Tech in Electronics & Communication Engineering.</p>
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0">D.A.V. Public School, Moonidih</h2><span class="small text-gray"><i
-                                class="fa fa-clock-o mr-1"></i>2017 - 19</span>
-                        <p class="text-small mt-2 font-weight-light">Passed 12th in Science Major with 91.4% aggregate.</p>                        
-                    </li>
-                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0">Indian School of Learning, Moonidih</h2><span class="small text-gray"><i
-                                class="fa fa-clock-o mr-1"></i>2015-19</span>
-                        <p class="text-small mt-2 font-weight-light">Passed 10th with 10 CGPA.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section id="achievements" class="achiev">
-            <div class="achiev-heading">
-                <h2>Achievements</h2>
-            </div>
-            <div class="achiev-details">
-                <!-- <table> -->
-                    <ul>
-                        <li><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img
-                                    src="data/GuviCertification - p931eQ567810o3gdD1.png"></a>
-                            <p>Certicate of Completion of <span>Build a Face Recognition Application using Python</span>
-                            </p>
-                        </li>
-                        <li><a href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O"
-                                target="_blank"><img src="data/156246077_206556317878688_4866132415255642547_n.jpg"></a>
-                            <p>2nd Position in <span>Hackathon</span> organised by <span>WebVerse(IIITBH)</span></p>
-                        </li>
-                    </ul>
-                <!-- </table> -->
-            </div>
-        </section>
-        <section id="project" class="projects">
-            <div class="project-heading">
-                <h2>Projects</h2>
-            </div>
-            <div class="project-details">
-                <table>
-                    <ul>
-                        <li>
-                            <a href="https://prateekch33.github.io/To-Do-List/" target="_blank"><img
-                                    src="data/To-Do List.png"></a>
-                            <p><strong>To-Do List</strong><br><br>In this you can make a list of the task and take a
-                                soft copy of the task in a PDF File.</p>
-                        </li>
-                        <li>
-                            <a href="https://prateekch33.github.io/Image-Gallery/" target="_blank"><img
-                                    src="data/Image-Gallery.png"></a>
-                            <p><strong>Image Gallery Page</strong><br><br>You can find some Images here.</p>
-                        </li>
-                        <li>
-                            <a href="https://prateekch33.github.io/Yt-Site/" target="_blank"><img
-                                    src="data/Yt-Site.png"></a>
-                            <p><strong>One Playlist Youtube</strong><br><br>This is mini Youtube.</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="https://prateekch33.github.io/Color-Game/" target="_blank"><img
-                                    src="data/Color-Game.png"></a>
-                            <p><strong>Color Game</strong><br><br>This is an interesting game of exact color finding
-                                from the given data.</p>
-                        </li>
-                    </ul>
-                </table>
-            </div>
-        </section>
+
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="about-image svg">
+            <img src="data/Prateek-Chandra.png" class="img-fluid" alt="svg image">
+          </div>
+        </div>
+
+      </div>
     </div>
-    <section id="contact" class="footer">
-        <div class="social-link">
+  </section>
+
+  <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-12">
+          <h2 class="mb-4">Skills</h2>
+
+          <div class="timeline">
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>85%</span>
+              </div>
+              <div class="timeline-info">
+                <h3>HTML</h3>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>65%</span>
+              </div>
+              <div class="timeline-info">
+                <h3>CSS</h3>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>45%</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>Node js</h3>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>65%</span>
+              </div>
+              <div class="timeline-info">
+                <h3>C++</h3>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+          <div class="timeline">
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>Present</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>B.Tech.</span><small>Electronics and Communication Engineering</small></h3>
+                <p>Currently I'm Pursuing my B.Tech Degree in ECE from Indian Institute of Information Technology,
+                  Bhagalpur.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2019</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>12th</span><small>Science</small></h3>
+                <p>I completed my 12th from DAV Pusblic School Moonidih, Dhanbad in Science with 92% Aggregate</p>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2017</span>
+              </div>
+              <div class="timeline-info">
+                <h3>10th</h3>
+                <p>I completed my 10th from Imperial School of Learning, Bhuli with 10 CGPA aggregate.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="achievements" class="achiev justify-content-center align-items-center">
+    <div class="achiev-heading text-center">
+      <h2>Achievements</h2>
+    </div>
+    <div class="achiev-details">
+      <ul>
+        <li><a href="https://www.guvi.in/verify-certificate?id=p931eQ567810o3gdD1" target="_blank"><img
+              src="data/GuviCertification - p931eQ567810o3gdD1.png" class="img-box"></a>
+          <p>Certicate of Completion of <span>Build a Face Recognition Application using Python</span>
+          </p>
+        </li>
+        <li><a
+            href="https://www.linkedin.com/posts/prateek-chandra-18712a202_on-behalf-of-the-entire-organizing-teamjury-activity-6772448185198686209-Gl2O"
+            target="_blank"><img src="data/156246077_206556317878688_4866132415255642547_n.jpg" class="img-box"></a>
+          <p>2nd Position in <span>Hackathon</span> organised by <span>WebVerse(IIITBH)</span></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="project" class="projects justify-content-center align-items-center">
+    <div class="project-heading text-center">
+      <h2>Projects</h2>
+    </div>
+    <div class="project-details">
+      <table>
+        <ul>
+          <li>
+            <a href="https://prateekch33.github.io/To-Do-List/" target="_blank"><img src="data/To-Do List.png"
+                class="img-box"></a>
+            <p><strong>To-Do List</strong><br><br>In this you can make a list of the task and take a
+              soft copy of the task in a PDF File.</p>
+          </li>
+          <li>
+            <a href="https://prateekch33.github.io/Image-Gallery/" target="_blank"><img src="data/Image-Gallery.png"
+                class="img-box"></a>
+            <p><strong>Image Gallery Page</strong><br><br>You can find some Images here.</p>
+          </li>
+          <li>
+            <a href="https://prateekch33.github.io/Yt-Site/" target="_blank"><img src="data/Yt-Site.png"
+                class="img-box"></a>
+            <p><strong>One Playlist Youtube</strong><br><br>This is mini Youtube.</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="https://prateekch33.github.io/Color-Game/" target="_blank"><img src="data/Color-Game.png"
+                class="img-box"></a>
+            <p><strong>Color Game</strong><br><br>This is an interesting game of exact color finding
+              from the given data.</p>
+          </li>
+        </ul>
+      </table>
+    </div>
+  </section>
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link"
+              enctype="text/plain" target="hidden_iframe">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control box-color" name="entry.396361716" placeholder="Your Name"
+                    id="name">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <input type="email" name="entry.318343981" class="form-control box-color" placeholder="Email"
+                    id="email">
+                </div>
+
+                <div class="col-12">
+                  <textarea name="entry.631870539" rows="6" class="form-control box-color" id="message"
+                    placeholder="Message"></textarea>
+                </div>
+
+                <div class="ml-lg-auto col-lg-5 col-12">
+                  <input id="submit" type="submit" class="form-control submit-btn" value="Send Button">
+                </div>
+              </div>
+            </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="social-link">
             <h3>Lets go Social!</h3>
             <a href="https://github.com/prateekch33" target="_blank"><i class="fa fa-github"></i></a>
             <a href="https://www.linkedin.com/in/prateek-chandra-18712a202" target="_blank"><i
-                    class="fa fa-linkedin"></i></a>
+                class="fa fa-linkedin"></i></a>
             <a href="https://twitter.com/PrateekCh33" target="_blank"><i class="fa fa-twitter"></i></a>
             <a href="https://www.facebook.com/prateekc33/" target="_blank"><i class="fa fa-facebook"></i></a>
             <a href="https://api.whatsapp.com/send?phone=919431796788" target="_blank"><i
-                    class="fab fa-whatsapp"></i></a>
+                class="fab fa-whatsapp"></i></a>
+          </div>
         </div>
-        <div class="contact-form">
-            <form
-                action="https://docs.google.com/forms/d/e/1FAIpQLSfpG8Nt5WLnkgvyQuAKOX8b95RQnHWigOOdanBMftFgSHCm_g/formResponse?usp=sf_link"
-                enctype="text/plain" target="hidden_iframe">
-                <h3>Contact Me</h3>
-                <p>Name(Required)</p>
-                <input id="nm" name="entry.396361716" type="text" required placeholder="Name">
-                <p>Email Id(Required)</p>
-                <input id="email" name="entry.318343981" type="email" required placeholder="Email Id">
-                <p>Message(Required)</p>
-                <textarea id="message" name="entry.631870539" required placeholder="Message"></textarea>
-                <p>*Required fields must be filled</p>
-                <button id="submit" type="submit" class="contact-submit">Submit</button>
-            </form>
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-            <script type="text/javascript" src="assets/profile.js"></script>
+
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 col-12">
+          <p class="copyright-text text-center">Copyright &copy; Prateek Chandra . All rights reserved</p>
         </div>
-    </section>
-    <section class="copyright">
-        <p><i class="far fa-copyright"></i>Copyright Prateek Chandra</p>
-    </section>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Headroom.js"></script>
+  <script src="js/jQuery.headroom.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
