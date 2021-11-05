@@ -310,7 +310,6 @@ b, strong {
   font-weight: bold;
 } 
 .projects {
-  margin: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -328,7 +327,7 @@ b, strong {
   width: 100%;
 }
 .project-details li {
-  list-style-type: none;    
+  list-style-type: none;
 }
 .project-details img {
   width: 280px;
@@ -368,7 +367,7 @@ b, strong {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
   .project-details li {
-      margin-left: 100px;
+      margin-left: auto;
   }
   .project-details ul {
     flex-direction: row;
